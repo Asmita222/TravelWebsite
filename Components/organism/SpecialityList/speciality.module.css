@@ -1,0 +1,17 @@
+.card{
+    width: 100%;
+    }
+    .title{
+    font-size: 18px;
+    padding-bottom: 10px;
+    }
+    .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    .h1{
+        text-align: center;
+        color: black;
+    }
+    

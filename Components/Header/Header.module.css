@@ -1,0 +1,74 @@
+.main{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    background-color: black;  
+}
+.info{    
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.leftbar{
+   display:flex;
+   justify-content:space-around;
+   color: #fff;
+   width: 100px;
+}
+  
+.rightbar{
+    display: flex; 
+    justify-content: space-around;
+
+}
+.rightbar>a{
+    color: white !important;
+    padding-left: 15px;
+    padding-right: 7px;    
+}
+.navwrapper{
+    background-color: #858280;
+    background-image: url("/mountain-bike-11.jpg");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 80px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;   
+    align-items: center;
+    padding: 6px 0px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 6px 0px 6px;
+}
+.navmenu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navmenu>span:hover{
+    color:rgb(226, 236, 209);
+}
+.dropdown{
+    padding-left: 40px;
+    padding-right: 20px;
+    font-size: 18px; 
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(20, 20, 20);
+}
+
